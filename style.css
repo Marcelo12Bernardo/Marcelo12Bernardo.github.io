@@ -1,0 +1,21 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#SobreMim{
+    font-family: Impact, 'Arial Narrow Bold';
+}
+body{
+    background-color: #8D99AE;
+    color: white;
+}
+strong{
+    color: rgb(0, 255, 128);
+    font-family: Helvetica;
+
+}
+.Soft-Skill {
+    font-size: 18px;
+}
+.Hard-Skill {
+    font-size: 16px;
+}
