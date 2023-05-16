@@ -1,8 +1,12 @@
-import Header from "./Components/Header";
+import { Route, Switch } from 'react-router-dom';
+import Home from "./Pages/Home";
+
 function App() {
   return (
     <main id="defoult">
-      <Header/>
+      <Switch>
+        <Route exact path="/" component={ Home } />
+      </Switch>
     </main>
   );
 }
