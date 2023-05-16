@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
-import Generic from "../Styless/imgs/genericImg.png"
+import Generic from "../Styless/imgs/genericImg.png";
+import "../Styless/Home.css";
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaEnvelope, FaSlack } from "react-icons/fa";
 
 class Home extends React.Component{
@@ -8,7 +9,7 @@ class Home extends React.Component{
     return(
       <div>
         <Header/>
-        <section>
+        <section className="container">
           <section>
             <p>Ola pessoal</p>
             <h1>Eu sou um<br/> Dev Front End Jr </h1>
@@ -23,8 +24,8 @@ class Home extends React.Component{
             <FaSlack/>
           </section>
         </section>
-        <section>
-          <img width={200} src={Generic} alt="Imagem de um progamador"/>
+        <section className="container">
+          <img  src={Generic} alt="Imagem de um progamador"/>
         </section>
       </div>
     );
