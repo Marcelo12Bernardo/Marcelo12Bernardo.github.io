@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "../Components/Header";
 
 class Sobre extends React.Component {
+    
     render(){
+        const { history } = this.props;
         return(
-            <h1>Sobre</h1>
+            <Header history={history}/>
         );
     }
 }

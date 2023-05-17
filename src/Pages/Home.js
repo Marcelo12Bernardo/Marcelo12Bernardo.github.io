@@ -6,9 +6,10 @@ import { FaGithub, FaLinkedin, FaWhatsappSquare, FaEnvelope, FaSlack } from "rea
 
 class Home extends React.Component{
   render(){
+    const { history } = this.props;
     return(
       <div>
-        <Header/>
+        <Header history={history}/>
         <section className="container">
           <section>
             <p>Ola pessoal</p>
