@@ -22,7 +22,7 @@ class Contatos extends React.Component{
             <section>
 
             </section>
-        </section>
+        </section> 
       </div>
     );
   }
