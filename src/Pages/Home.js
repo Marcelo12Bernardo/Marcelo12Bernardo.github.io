@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
 import Generic from "../Styless/imgs/genericImg.png";
-import "../Styless/Home.css";
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaEnvelope, FaSlack } from "react-icons/fa";
 
 class Home extends React.Component{
@@ -10,23 +9,21 @@ class Home extends React.Component{
     return(
       <div>
         <Header history={history}/>
-        <section className="container">
+        <section className="flex justify-between">
           <section>
-            <p>Ola pessoal</p>
-            <h1>Eu sou um<br/> Dev Front End Jr </h1>
-            <p>Sejam bem vindos ao meu Web Portifolio</p>
+            <p className="text-primary">Ola pessoal</p>
+            <h1 className="text-secondary bold">EU SOU UM<br/>FRONT-END DEVELOPER</h1>
+            <p className="text-primary">Sejam bem vindos ao meu Web Portifolio</p>
+            <section>
+              <FaGithub/>
+              <FaLinkedin/>
+              <FaWhatsappSquare/>
+              <FaEnvelope/>
+              <FaSlack/>
+            </section>
           </section>
-
-          <section>
-            <FaGithub/>
-            <FaLinkedin/>
-            <FaWhatsappSquare/>
-            <FaEnvelope/>
-            <FaSlack/>
-          </section>
-        </section>
-        <section className="container">
-          <img  src={Generic} alt="Imagem de um progamador"/>
+          <img  src={Generic} alt="Imagem de um progamador" />
+          {/* text-9xl */}
         </section>
       </div>
     );

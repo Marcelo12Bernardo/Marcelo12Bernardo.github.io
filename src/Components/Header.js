@@ -1,5 +1,5 @@
 import React from "react";
-import  "../Styless/Header.css";
+import { FaCode } from "react-icons/fa";
 
 class Header extends React.Component { 
   changeRout = ({ target }) => {
@@ -10,34 +10,38 @@ class Header extends React.Component {
 
     render() {
       return (
-        <header>
-            <h1>Marcelo Bernardo</h1>
-            <nav>
-          <ul>
-            <li>
-              <a name="home" onClick={this.changeRout}>
+        <header className="flex justify-between bg-backgb bold  mt-4">
+          <h1 className="flex  align-baseline text-primary text-3xl gap-2" >
+          <FaCode color="#445964"/>
+            Marcelo Bernardo
+          </h1>
+            
+          <nav >
+          <ul className="flex gap-3 text-primary text-1xl mt-2">
+            <li className="hover:border-b-2" class="hover:border-b-2">
+              <button name="home" onClick={this.changeRout}>
                 Home
-              </a>
+              </button>
             </li>
-            <li>
-              <a name="sobre" onClick={this.changeRout}>
+            <li className="hover:border-b-2" class="hover:border-b-2">
+              <button name="sobre" onClick={this.changeRout}>
                 Sobre
-              </a>
+              </button>
             </li>
-            <li>
-              <a name="skills" onClick={this.changeRout}>
+            <li className="hover:border-b-2" class="hover:border-b-2">
+              <button name="skills" onClick={this.changeRout}>
                 Skills
-              </a>
+              </button>
             </li>
-            <li>
-              <a name="projetos" onClick={this.changeRout}>
+            <li className="hover:border-b-2" class="hover:border-b-2">
+              <button name="projetos" onClick={this.changeRout}>
                 Projetos
-              </a>
+              </button>
             </li>
-            <li>
-              <a name="contatos" onClick={this.changeRout}>
+            <li className="hover:border-b-2" class="hover:border-b-2">
+              <button name="contatos" onClick={this.changeRout}>
                 Contatos
-              </a>
+              </button>
             </li>
           </ul>
         </nav>
