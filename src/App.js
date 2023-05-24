@@ -7,7 +7,7 @@ import Contatos from './Pages/Contatos';
 
 function App() {
   return (
-    <main>
+    <main className='bg-backgb'>
       <Switch>
         <Route exact path="/" component={ Home } />
         <Route exact path="/home" component={ Home } />
