@@ -10,7 +10,7 @@ class Header extends React.Component {
 
     render() {
       return (
-        <header className="flex justify-between bg-backgb font-bold mt-4 ml-40 mr-40">
+        <header className="flex justify-between bg-backgb font-bold mt-4 ml-40 mr-20">
           <h1 className="flex  align-baseline text-primary text-4xl gap-2" >
           <FaCode color="#445964"/>
             Marcelo Bernardo
