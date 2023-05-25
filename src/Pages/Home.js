@@ -15,9 +15,9 @@ class Home extends React.Component{
             <p className="text-primary  text-2xl">Ola pessoal</p>
             <div className="flex align-baseline text-secondary gap-2 font-bold">
               <h1 className="text-5xl">EU SOU UM</h1>
-              <FaGithub className="mt-2 hover:mt-0 text-3xl"/>
-              <FaLinkedin className="mt-2 hover:mt-0 text-3xl"/>
-              <FaWhatsappSquare className="mt-2 hover:mt-0 text-3xl"/>
+              <a href="https://github.com/Marcelo12Bernardo" target="_blanck"><FaGithub className="mt-2 hover:mt-0 text-3xl"/></a>
+              <a href="https://www.linkedin.com/in/marcelo-bernardo-p/" target="_blanck"><FaLinkedin className="mt-2 hover:mt-0 text-3xl"/></a>
+              <a href="https://api.whatsapp.com/send?phone=5522998376689&text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portifolio%21" target="_blanck"><FaWhatsappSquare className="mt-2 hover:mt-0 text-3xl"/></a>
             </div>
             <h1 className="text-secondary  text-5xl">FRONT-END DEVELOPER</h1>
             <p className="text-primary  text-2xl ">Sejam bem vindos ao meu Web Portifolio</p>
