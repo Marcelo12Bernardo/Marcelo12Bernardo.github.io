@@ -8,7 +8,10 @@ module.exports = {
         secondary: '#263138',
         terceary: '#DFDFDF',
         backgb: '#FBFBFB',
-      }
+      },
+      maxHeight:{
+        contProjct: '35rem',
+      },
     },
   },
   plugins: [],

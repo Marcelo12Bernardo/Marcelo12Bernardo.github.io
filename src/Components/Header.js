@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCode } from "react-icons/fa";
 
 class Header extends React.Component { 
   changeRout = ({ target }) => {
@@ -9,11 +8,11 @@ class Header extends React.Component {
   };
 
     render() {
+      const text="< Marcelo Bernardo />";
       return (
-        <header className="flex justify-between bg-backgb font-bold mt-4 ml-40 mr-20">
+        <header className="flex justify-between bg-backgb font-bold mt-6 ml-16 mr-16">
           <h1 className="flex  align-baseline text-primary text-4xl gap-2" >
-          <FaCode color="#445964"/>
-            Marcelo Bernardo
+          <p>{text} </p>
           </h1>
             
           <nav >

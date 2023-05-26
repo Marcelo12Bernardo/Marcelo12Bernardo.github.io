@@ -9,18 +9,181 @@ class Projetos extends React.Component{
     return(
       <div>
         <Header history={history}/>
-        <section>
-            <section><h1>Trabalhos e Projetos</h1></section>
-            <section><button>Fillter 1</button><button>Fillter 2</button><button>Fillter 3</button></section>
-        </section>
-        <section>
+        <h1 className="text-secondary font-bold text-6xl ml-12 mt-28 mb-12 ">Projetos</h1>
+        {/* Adcionar  filtros por badgs(HTML, CSS, JS, REACT...) */}
+        <div className="project-container max-h-contProjct overflow-y-auto grid grid-cols-4 place-items-center gap-8">
             <CardProjeto
             title="Pixels art"
             description="Projeto de pintar pixels"
             skills={["html", "CSS"]}
             image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
             />
-        </section>
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+
+<CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+
+<CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+
+<CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+            <CardProjeto
+            title="Pixels art"
+            description="Projeto de pintar pixels"
+            skills={["html", "CSS"]}
+            image={genericImg}
+            githubLink="https://github.com/Marcelo12Bernardo"
+            />
+        </div>
       </div>
     );
   }

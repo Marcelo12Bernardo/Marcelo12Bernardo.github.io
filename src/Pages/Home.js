@@ -8,7 +8,7 @@ class Home extends React.Component{
   render(){
     const { history } = this.props;
     return(
-      <div>
+      <div className="overflow-hidden">
         <Header history={history}/>
         <section className="flex justify-between ">
           <section className="font-bold mt-60 ml-40">
