@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
-import perfil from "../Styless/imgs/perfil.jpeg";
+import fotoPerfil from "../Styless/imgs/fotoṔerfil.jpeg";
 
 class Sobre extends React.Component {
     render(){
@@ -9,7 +9,7 @@ class Sobre extends React.Component {
           <div>
             <Header history={history}/>
             <section className="flex items-center mt-24 ml-72 mr-44 justify-between">
-                <img src={perfil} alt="Foto de perfil" className="h-80 w-80 rounded-full" />
+                <img src={fotoPerfil} alt="Foto de perfil" className="h-80 w-80 rounded-full" />
                 <section className="ml-">
                     <h1 className="text-secondary  text-5xl font-bold">Sobre Mim</h1>
                     <ul className="text-primary  text-2xl font-bold mt-2">
