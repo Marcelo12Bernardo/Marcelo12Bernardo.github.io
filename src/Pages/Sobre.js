@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
+import TimeLine from "../Components/TimeLine";
 import fotoPerfil from "../Styless/imgs/fotoṔerfil.jpeg";
 
 class Sobre extends React.Component {
@@ -21,12 +22,8 @@ class Sobre extends React.Component {
                         <li>📍 - Sou de Campos dos Goytacaszes - RJ</li>
                     </ul>
                 </section>
-                {/* <section>
-                <h1>Minha Jornada até aqui</h1>
-                <p>Ainda muito novo tive meu primeiro contato com tecnologia, e acabei me apaixoando pelo ramo, principalmente pelos assuntos realcionados a desenvolvimento e games. Além dessa paixao, sempre tive curiosidade sobre como as coisas funcionavam "por trás dos bastidores" por isso dei início ao curso de TI no Instituto Federal da minha cidade, durante minha formação tive contato com algumas linguagens e com o desenvolvimento Web, liderei uma equipe na olimpíada brasileira de rebótica(OBR) onde pude aplicar minhas habilidades de liderança, comunicação e resiliência, participei de mini-cursos e no fim decidi que queria me tornar um desenvolvedor</p>
-                </section> */}
-                {/* Adcionar linha do tempo com trajetoria */}
             </section>
+            <TimeLine/>
           </div>
     );
     }
