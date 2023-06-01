@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 function Contatos({ history }) {
     return (
         <div>
+
             <Header history={history} />
             <div className="mt-16 text-secondary text-6xl font-bold text-center">Entre em contato comigo</div>
             <p className="mt-2 text-primary text-3xl font-bold text-center mb-0">Para mais informações</p>
