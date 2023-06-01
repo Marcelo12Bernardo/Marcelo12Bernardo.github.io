@@ -19,5 +19,5 @@ function App() {
     </main>
   );
 }
-//Aplicar bg-backgb aos componemtes
+
 export default App;
