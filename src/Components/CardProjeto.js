@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import PropTypes from 'prop-types';
 
 function ProjectCard(props) {
     const { title, githubLink, previewLink, description, skills, image } = props;
@@ -34,4 +35,14 @@ function ProjectCard(props) {
     );
 }
 
+ProjectCard.propTypes = {
+    title: PropTypes.string,
+    githubLink: PropTypes.string,
+    previewLink: PropTypes.string,
+    description: PropTypes.string,
+    skills: PropTypes.string,
+    image: PropTypes.string, 
+    map: PropTypes.func,
+}.isRequired;
+  
 export default ProjectCard;

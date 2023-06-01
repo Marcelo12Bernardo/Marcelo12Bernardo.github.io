@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Components/Header';
+import PropTypes from 'prop-types';
 import {
     FaGithub,
     FaJsSquare,
@@ -55,4 +56,9 @@ function Skills({ history }) {
     );
 }
 
+Skills.propTypes = {
+    history: PropTypes.shape({
+        push: PropTypes.func.isRequired,
+    }).isRequired,
+};
 export default Skills;

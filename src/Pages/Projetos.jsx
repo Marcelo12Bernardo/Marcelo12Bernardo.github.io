@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Components/Header';
 import CardProjeto from '../Components/CardProjeto';
 import genericImg from '../Styless/imgs/genericImg.png';
+import PropTypes from 'prop-types';
 
 function Projetos({ history }) {
     return (
@@ -21,5 +22,11 @@ function Projetos({ history }) {
         </div>
     );
 }
+
+Projetos.propTypes = {
+    history: PropTypes.shape({
+        push: PropTypes.func.isRequired,
+    }).isRequired,
+};
 
 export default Projetos;

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header';
 import HomeDev from '../Styless/imgs/HomeDev.svg';
+import PropTypes from 'prop-types';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFileDownload } from 'react-icons/fa';
 
 function Home({ history }) {
@@ -34,5 +35,12 @@ function Home({ history }) {
         </div>
     );
 }
+
+
+Home.propTypes = {
+    history: PropTypes.shape({
+        push: PropTypes.func.isRequired,
+    }).isRequired,
+};
 
 export default Home;

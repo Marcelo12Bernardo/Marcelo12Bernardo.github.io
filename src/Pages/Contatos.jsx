@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Components/Header';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaEnvelope, FaPhoneSquareAlt } from 'react-icons/fa';
 import msg from '../Styless/imgs/msg2.png';
+import PropTypes from 'prop-types';
 
 function Contatos({ history }) {
     return (
@@ -39,5 +40,11 @@ function Contatos({ history }) {
         </div>
     );
 }
+
+Contatos.propTypes = {
+    history: PropTypes.shape({
+        push: PropTypes.func.isRequired,
+    }).isRequired,
+};
 
 export default Contatos;

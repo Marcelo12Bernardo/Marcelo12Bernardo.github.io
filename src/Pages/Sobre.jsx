@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Components/Header';
 import TimeLine from '../Components/TimeLine';
 import fotoPerfil from '../Styless/imgs/fotoṔerfil.jpeg';
-
+import PropTypes from 'prop-types';
 function Sobre({ history }) {
     return (
         <div>
@@ -26,4 +26,9 @@ function Sobre({ history }) {
     );
 }
 
+Sobre.propTypes = {
+    history: PropTypes.shape({
+        push: PropTypes.func.isRequired,
+    }).isRequired,
+};
 export default Sobre;

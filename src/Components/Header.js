@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Header({ history }) {
     const changeRoute = ({ target }) => {
@@ -26,4 +27,11 @@ function Header({ history }) {
     );
 }
 
+Header.propTypes = {
+    history: PropTypes.shape({
+        push: PropTypes.func.isRequired,
+    }).isRequired,
+};
+
 export default Header;
+
