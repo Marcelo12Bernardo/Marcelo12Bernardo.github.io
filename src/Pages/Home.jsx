@@ -8,9 +8,8 @@ function Home({ history }) {
     return (
         <div>
             <Header history={history} />
-            <div className='bg-red-600 h-2 w-custom2'></div>
             <section className="flex justify-between">
-                <section className="font-bold mt-60 ml-40">
+                <section className="font-bold mt-32 ml-20">
                     <p className="text-primary text-2xl">Olá pessoal</p>
                     <div className="flex align-baseline text-secondary gap-2 font-bold">
                         <h1 className="text-5xl">EU SOU UM</h1>
@@ -31,7 +30,7 @@ function Home({ history }) {
                         <FaFileDownload className="text-2xl mt-3" />
                     </a>
                 </section>
-                <img src={HomeDev} alt="Imagem de um programador" className="mt-24 mr-40 h-custom w-custom" />
+                <img src={HomeDev} alt="Imagem de um programador" className="mt-24 mr-20 h-custom w-custom" />
             </section>
         </div>
     );

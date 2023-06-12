@@ -22,11 +22,12 @@ module.exports = {
                 '9xl': '128px',
             },
             width: {
-                'custom': '680px',
+                'custom': '380px',
                 'custom2': '1351px',
             },
             height: {
-                'custom': '680px',
+                'custom': '380px',
+                'custom2': '630px',
             },
         },
     },
