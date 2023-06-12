@@ -8,9 +8,9 @@ import Contatos from './Pages/Contatos';
 
 function App() {
     return (
-        <main className='bg-backgb border border-red-600'>
+        <main className='bg-backgb'>
             <Switch>
-                <Route exact path="/" component={ Home } />
+                <Route  className='border border-red-600' exact path="/" component={ Home } />
                 <Route exact path="/home" component={ Home } />
                 <Route exact path="/sobre" component={ Sobre } />
                 <Route exact path="/skills" component={ Skills } />
