@@ -25,12 +25,12 @@ function Home({ history }) {
                     </div>
                     <h1 className="text-secondary text-5xl">FRONT-END DEVELOPER</h1>
                     <p className="text-primary text-2xl">Sejam bem-vindos ao meu Web Portfólio</p>
-                    <a href="https://www.idrive.com/idrive/sh/sh?k=p8j8t3p5p1" target="_blank" rel="noopener noreferrer" className="h-14 w-52 flex rounded-3xl gap-4 mt-28 bg-secondary text-backgb">
-                        <p className="text-2xl ml-6 mt-2">Baixar CV</p>
+                    <a href="https://www.idrive.com/idrive/sh/sh?k=p8j8t3p5p1" target="_blank" rel="noopener noreferrer" className="h-14 w-52 flex rounded-3xl gap-4 mt-12 bg-secondary text-backgb">
+                        <p className="text-2xl mt-2 ml-6">Baixar CV</p>
                         <FaFileDownload className="text-2xl mt-3" />
                     </a>
                 </section>
-                <img src={HomeDev} alt="Imagem de um programador" className="mt-24 mr-20 h-custom w-custom" />
+                <img src={HomeDev} alt="Imagem de um programador" className="mt-12 mr-20 h-custom w-custom" />
             </section>
         </div>
     );
