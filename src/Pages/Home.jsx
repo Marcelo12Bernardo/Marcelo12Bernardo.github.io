@@ -8,6 +8,7 @@ function Home({ history }) {
     return (
         <div>
             <Header history={history} />
+            <div className='bg-red-600 h-2 w-custom2'></div>
             <section className="flex justify-between">
                 <section className="font-bold mt-60 ml-40">
                     <p className="text-primary text-2xl">Olá pessoal</p>

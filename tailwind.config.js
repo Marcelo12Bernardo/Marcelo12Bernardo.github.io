@@ -23,6 +23,7 @@ module.exports = {
             },
             width: {
                 'custom': '680px',
+                'custom2': '1351px',
             },
             height: {
                 'custom': '680px',
