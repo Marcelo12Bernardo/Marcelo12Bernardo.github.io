@@ -4,7 +4,7 @@ import msg from '../Styless/imgs/msg2.png';
 
 function Contatos() {
     return (
-        <div className='border border-orange-600 h-custom2'>
+        <div className='border border-orange-600 h-custom2' id='Contatos'>
             <div className="mt-12 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
             <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
             <section className="ml-48 mb-14">
