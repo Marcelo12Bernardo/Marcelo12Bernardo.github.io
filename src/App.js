@@ -7,7 +7,7 @@ import Contatos from './Pages/Contatos';
 
 function App() {
     return (
-        <main className='bg-backgb border border-red-600 w-custom2'>
+        <main className='bg-backgb'>
             {/* <main className='bg-backgb border border-red-600 w-custom2 h-custom2'></main> */}
             <Home/>
             <Sobre/>
