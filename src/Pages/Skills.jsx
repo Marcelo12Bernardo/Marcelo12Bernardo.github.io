@@ -22,7 +22,7 @@ function Skills() {
     return (
         <div className='border border-blue-600 h-custom2' id='Skills'>
             
-            <h1 className="text-primary text-5xl font-bold text-center mt-10 mb-28">Minhas Techs</h1>
+            <h1 className="text-primary text-5xl font-bold text-center mt-40 mb-12">Minhas Techs</h1>
             <h1 className="text-secondary text-2xl font-bold text-center mt-20">
         Tecnologias de projetos anteriores
             </h1>

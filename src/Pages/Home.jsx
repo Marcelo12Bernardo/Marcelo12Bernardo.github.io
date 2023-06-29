@@ -8,7 +8,7 @@ function Home() {
         <div className='border border-green-600 h-custom2' id='Home'>
             <Header/>
             <section className="flex justify-between">
-                <section className="font-bold mt-28 ml-20">
+                <section className="font-bold mt-36 ml-20">
                     <p className="text-primary text-2xl -mb-2">Olá pessoal</p>
                     <div className="flex align-baseline text-secondary gap-2 font-bold">
                         <h1 className="text-5xl">EU SOU UM</h1>
@@ -29,7 +29,7 @@ function Home() {
                         <FaFileDownload className="text-2xl mt-3" />
                     </a>
                 </section>
-                <img src={HomeDev} alt="Imagem de um programador" className="mt-6 mr-20 h-custom w-custom" />
+                <img src={HomeDev} alt="Imagem de um programador" className="mt-12 mr-20 h-custom w-custom" />
             </section>
         </div>
     );

@@ -7,8 +7,8 @@ function Contatos() {
         <div className='border border-orange-600 h-custom2' id='Contatos'>
             <div className="mt-12 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
             <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
-            <section className="ml-48 mb-14">
-                <img src={msg} alt="Icone de aviao" className="ml-96 w-72" />
+            <section className="ml-36 mb-14">
+                <img src={msg} alt="Icone de aviao" className="ml-96 w-96" />
             </section>
 
             <section className="grid grid-cols-5 justify-items-center font-bold p-2">
