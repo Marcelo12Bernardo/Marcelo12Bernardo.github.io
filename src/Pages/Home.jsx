@@ -5,7 +5,7 @@ import Header from '../Components/Header';
 
 function Home() {
     return (
-        <div className='border border-green-600 h-custom2' id='Home'>
+        <div className='h-screen' id='Home'>
             <Header/>
             <section className="flex justify-between">
                 <section className="font-bold mt-36 ml-20">
