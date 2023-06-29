@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from '../Components/Header';
 import HomeDev from '../Styless/imgs/HomeDev.svg';
-import PropTypes from 'prop-types';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFileDownload } from 'react-icons/fa';
 
-function Home({ history }) {
+function Home() {
     return (
-        <div>
-            <Header history={history} />
+        <div className='border border-green-600 h-custom2'>
             <section className="flex justify-between">
                 <section className="font-bold mt-28 ml-20">
                     <p className="text-primary text-2xl -mb-2">Olá pessoal</p>
@@ -35,11 +32,5 @@ function Home({ history }) {
         </div>
     );
 }
-
-Home.propTypes = {
-    history: PropTypes.shape({
-        push: PropTypes.func.isRequired,
-    }).isRequired,
-};
 
 export default Home;

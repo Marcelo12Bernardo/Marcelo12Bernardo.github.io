@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from '../Components/Header';
 import CardProjeto from '../Components/CardProjeto';
 import genericImg from '../Styless/imgs/genericImg.png';
-import PropTypes from 'prop-types';
 
-function Projetos({ history }) {
+function Projetos() {
     return (
-        <div>
-            <Header history={history} />
+        <div className='border border-yellow-600 h-custom2'>
             <h1 className="text-secondary font-bold text-4xl ml-12 mt-4 mb-8">Projetos</h1>
             {/* Adicionar filtros por badgs(HTML, CSS, JS, REACT...) */}
             <div className="project-container max-h-contProjct overflow-y-auto grid grid-cols-4 place-items-center gap-8">
@@ -24,10 +21,5 @@ function Projetos({ history }) {
     );
 }
 
-Projetos.propTypes = {
-    history: PropTypes.shape({
-        push: PropTypes.func.isRequired,
-    }).isRequired,
-};
 
 export default Projetos;

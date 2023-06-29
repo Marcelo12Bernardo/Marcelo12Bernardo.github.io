@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from '../Components/Header';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaEnvelope, FaPhoneSquareAlt } from 'react-icons/fa';
 import msg from '../Styless/imgs/msg2.png';
-import PropTypes from 'prop-types';
 
-function Contatos({ history }) {
+function Contatos() {
     return (
-        <div>
-            <Header history={history} />
+        <div className='border border-orange-600 h-custom2'>
             <div className="mt-12 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
             <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
             <section className="ml-48 mb-14">
@@ -41,10 +38,5 @@ function Contatos({ history }) {
     );
 }
 
-Contatos.propTypes = {
-    history: PropTypes.shape({
-        push: PropTypes.func.isRequired,
-    }).isRequired,
-};
 
 export default Contatos;

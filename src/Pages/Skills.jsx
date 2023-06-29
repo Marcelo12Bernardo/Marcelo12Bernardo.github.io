@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../Components/Header';
-import PropTypes from 'prop-types';
 import {
     FaGithub,
     FaJsSquare,
@@ -20,10 +18,10 @@ import {
 } from 'react-icons/fa';
 import { SiEslint, SiTailwindcss } from 'react-icons/si';
 
-function Skills({ history }) {
+function Skills() {
     return (
-        <div>
-            <Header history={history} />
+        <div className='border border-blue-600 h-custom2'>
+            
             <h1 className="text-primary text-5xl font-bold text-center mt-10 mb-28">Minhas Techs</h1>
             <h1 className="text-secondary text-2xl font-bold text-center mt-20">
         Tecnologias de projetos anteriores
@@ -56,9 +54,5 @@ function Skills({ history }) {
     );
 }
 
-Skills.propTypes = {
-    history: PropTypes.shape({
-        push: PropTypes.func.isRequired,
-    }).isRequired,
-};
+
 export default Skills;
