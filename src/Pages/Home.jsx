@@ -1,10 +1,12 @@
 import React from 'react';
 import HomeDev from '../Styless/imgs/HomeDev.svg';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFileDownload } from 'react-icons/fa';
+import Header from '../Components/Header';
 
 function Home() {
     return (
         <div className='border border-green-600 h-custom2'>
+            <Header/>
             <section className="flex justify-between">
                 <section className="font-bold mt-28 ml-20">
                     <p className="text-primary text-2xl -mb-2">Olá pessoal</p>
