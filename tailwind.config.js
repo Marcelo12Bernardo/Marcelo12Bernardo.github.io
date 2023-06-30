@@ -31,6 +31,9 @@ module.exports = {
                 'custom': '500px', //img
                 'custom2': '640px',
             },
+            margin: {
+                'custom': '25%',
+            },
         },
     },
     plugins: [],
