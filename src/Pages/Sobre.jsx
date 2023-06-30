@@ -23,9 +23,6 @@ function Sobre() {
             </section>
             {/* <TimeLine /> */}
         </div>
-
-
-
     );
 }
 
