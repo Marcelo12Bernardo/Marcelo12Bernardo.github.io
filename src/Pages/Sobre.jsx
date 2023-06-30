@@ -5,8 +5,8 @@ import fotoPerfil from '../Styless/imgs/fotoṔerfil.jpeg';
 
 function Sobre() {
     return (
-        <div className='h-screen' id='Sobre'>
-            <section className="flex items-center mt-28 ml-44 mr-12 justify-between">
+        <div className='h-screen border border-red-600' id='Sobre'>
+            <section className="flex justify-center items-center gap-16">
                 <img src={fotoPerfil} alt="Foto de perfil" className="h-80 w-80 rounded-xl" />
                 <section>
                     <h1 className="text-secondary text-4xl font-bold">Sobre Mim</h1>
@@ -23,6 +23,7 @@ function Sobre() {
             </section>
             {/* <TimeLine /> */}
         </div>
+
     );
 }
 
