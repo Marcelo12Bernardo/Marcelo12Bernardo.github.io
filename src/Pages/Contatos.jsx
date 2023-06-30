@@ -4,8 +4,8 @@ import msg from '../Styless/imgs/msg2.png';
 
 function Contatos() {
     return (
-        <div className='h-custom2 w-custom2 border border-red-600' id='Contatos'>
-            <div className="mt-custom text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
+        <div id='Contatos'>
+            <div className="mt-9 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
             <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
             <section className="ml-36 mb-20">
                 <img src={msg} alt="Icone de aviao" className="ml-96 w-96" />
