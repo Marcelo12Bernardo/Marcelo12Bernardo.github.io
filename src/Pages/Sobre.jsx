@@ -5,7 +5,7 @@ import fotoPerfil from '../Styless/imgs/fotoṔerfil.jpeg';
 
 function Sobre() {
     return (
-        <div className='h-screen flex items-center justify-center border border-pink-600' id='Sobre'>
+        <div className='h-screen flex items-center justify-center border' id='Sobre'>
             <section className="flex space-x-4 items-center gap-20">
                 <img src={fotoPerfil} alt="Foto de perfil" className="h-80 w-80 rounded-xl" />
                 <section>
