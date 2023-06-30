@@ -32,7 +32,7 @@ module.exports = {
                 'custom2': '640px',
             },
             margin: {
-                'custom': '25%',
+                'custom': '12%',
             },
         },
     },
