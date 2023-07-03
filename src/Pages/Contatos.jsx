@@ -4,14 +4,16 @@ import msg from '../Styless/imgs/msg2.png';
 
 function Contatos() {
     return (
-        <div className='h-screen border' id='Contatos'>
-            <div className="mt-9 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
-            <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
-            <section className="ml-36 mb-20">
-                <img src={msg} alt="Icone de aviao" className="ml-96 w-96" />
-            </section>
+        <div className='h-screen flex flex-col border' id='Contatos'>
+            <div className="flex flex-col flex-grow justify-center">
+                <div className="mt-9 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
+                <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
+                <section className="flex items-center justify-center flex-grow">
+                    <img src={msg} alt="Icone de aviao" className="w-96" />
+                </section>
+            </div>
 
-            <section className="grid grid-cols-5 justify-items-center font-bold p-2 mb-0">
+            <section className="grid grid-cols-5 justify-items-center font-bold p-2 mt-auto">
                 <a href="https://github.com/Marcelo12Bernardo" target="_blank" rel="noopener noreferrer" className="text-2xl text-secondary hover:-mt-3">
                     <FaGithub className="text-5xl mb-0 ml-4" /> Github
                 </a>
@@ -35,8 +37,11 @@ function Contatos() {
                 <p className="text-secondary text-1xl">+5522998376689</p>
             </section>
         </div>
+
     );
 }
 
 
 export default Contatos;
+
+
