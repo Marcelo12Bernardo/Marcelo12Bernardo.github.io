@@ -1,20 +1,19 @@
 import React from 'react';
-import Header from '../Components/Header';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaEnvelope, FaPhoneSquareAlt } from 'react-icons/fa';
 import msg from '../Styless/imgs/msg2.png';
-import PropTypes from 'prop-types';
 
-function Contatos({ history }) {
+function Contatos() {
     return (
-        <div>
-            <Header history={history} />
-            <div className="mt-12 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
-            <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
-            <section className="ml-48 mb-14">
-                <img src={msg} alt="Icone de aviao" className="ml-96 w-72" />
-            </section>
+        <div className='h-screen flex flex-col border' id='Contatos'>
+            <div className="flex flex-col flex-grow justify-center">
+                <div className="mt-9 text-secondary text-4xl font-bold text-center">Entre em contato comigo</div>
+                <p className="mt-2 text-primary text-2xl font-bold text-center mb-0">Para mais informações</p>
+                <section className="flex items-center justify-center flex-grow">
+                    <img src={msg} alt="Icone de aviao" className="w-96" />
+                </section>
+            </div>
 
-            <section className="grid grid-cols-5 justify-items-center font-bold p-2">
+            <section className="grid grid-cols-5 justify-items-center font-bold p-2 mt-auto">
                 <a href="https://github.com/Marcelo12Bernardo" target="_blank" rel="noopener noreferrer" className="text-2xl text-secondary hover:-mt-3">
                     <FaGithub className="text-5xl mb-0 ml-4" /> Github
                 </a>
@@ -38,13 +37,11 @@ function Contatos({ history }) {
                 <p className="text-secondary text-1xl">+5522998376689</p>
             </section>
         </div>
+
     );
 }
 
-Contatos.propTypes = {
-    history: PropTypes.shape({
-        push: PropTypes.func.isRequired,
-    }).isRequired,
-};
 
 export default Contatos;
+
+

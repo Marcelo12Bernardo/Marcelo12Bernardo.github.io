@@ -1,15 +1,14 @@
 import React from 'react';
-import Header from '../Components/Header';
 import HomeDev from '../Styless/imgs/HomeDev.svg';
-import PropTypes from 'prop-types';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFileDownload } from 'react-icons/fa';
+import Header from '../Components/Header';
 
-function Home({ history }) {
+function Home() {
     return (
-        <div>
-            <Header history={history} />
+        <div className='h-screen border' id='Home'>
+            <Header/>
             <section className="flex justify-between">
-                <section className="font-bold mt-28 ml-20">
+                <section className="font-bold mt-36 ml-20">
                     <p className="text-primary text-2xl -mb-2">Olá pessoal</p>
                     <div className="flex align-baseline text-secondary gap-2 font-bold">
                         <h1 className="text-5xl">EU SOU UM</h1>
@@ -30,16 +29,10 @@ function Home({ history }) {
                         <FaFileDownload className="text-2xl mt-3" />
                     </a>
                 </section>
-                <img src={HomeDev} alt="Imagem de um programador" className="mt-6 mr-20 h-custom w-custom" />
+                <img src={HomeDev} alt="Imagem de um programador" className="mt-12 mr-20 h-custom w-custom" />
             </section>
         </div>
     );
 }
-
-Home.propTypes = {
-    history: PropTypes.shape({
-        push: PropTypes.func.isRequired,
-    }).isRequired,
-};
 
 export default Home;
