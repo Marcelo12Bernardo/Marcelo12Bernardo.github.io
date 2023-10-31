@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import fotoPerfil from '../Styless/imgs/fotoṔerfil.jpeg';
+import fotoSeta from '../Styless/imgs/seta-removebg-preview.png';
 
 function Sobre() {
     const [showSobre, setShowSobre] = useState(true);
@@ -60,8 +61,9 @@ function Sobre() {
                     </section>
                 </div>
             )}
-            <button onClick={toggleSections} className="bottom-10 right-10 p-4 bg-blue-500 text-white rounded-full ml-20">
-                {'>'} <i className="fas fa-arrow-right"></i>
+            <button onClick={toggleSections} className="ml-20">
+                {/* {'>'}  */}
+                <img src={fotoSeta} alt="Foto de perfil" className="h-12" />
             </button>
         </div>
     );

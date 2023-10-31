@@ -1,6 +1,6 @@
 import React from 'react';
 import CardProjeto from '../Components/CardProjeto';
-import genericImg from '../Styless/imgs/genericImg.png';
+import genericImg from '../Styless/imgs/PixelsArt.png';
 
 function Projetos() {
     return (
@@ -10,10 +10,11 @@ function Projetos() {
             <div className="project-container max-h-contProjct overflow-y-auto grid grid-cols-4 place-items-center gap-8">
                 <CardProjeto
                     title="Pixels art"
-                    description="Projeto de pintar pixels"
-                    skills={['HTML', 'CSS']}
+                    description="Utilize pixeis para ciar artes"
+                    skills={['HTML', 'CSS', 'JS']}
                     image={genericImg}
-                    githubLink="https://github.com/Marcelo12Bernardo"
+                    githubLink="https://github.com/Marcelo12Bernardo/Pixels-Art"
+                    previewLink="https://pixels-art-psi.vercel.app/"
                 />
                 
             </div>
