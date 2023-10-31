@@ -2,8 +2,16 @@ import React from 'react';
 import HomeDev from '../Styless/imgs/HomeDev.svg';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFileDownload } from 'react-icons/fa';
 import Header from '../Components/Header';
+import MeuCurriculoPdf from '../Arquivos/CRR_Dev_Marcelo.pdf';
 
 function Home() {
+    function handleDownloadCV() {
+        const link = document.createElement('a');
+        link.href = MeuCurriculoPdf;
+        link.download = 'CurriculoMarceloBernardo.pdf'; // O nome do arquivo quando for baixado
+        link.click();
+    }
+
     return (
         <div className='h-screen border' id='Home'>
             <Header/>
@@ -24,7 +32,7 @@ function Home() {
                     </div>
                     <h1 className="text-secondary text-5xl -mt-4">FRONT-END DEVELOPER</h1>
                     <p className="text-primary text-2xl -mt-2">Sejam bem-vindos ao meu Web Portfólio</p>
-                    <a href="https://www.idrive.com/idrive/sh/sh?k=p8j8t3p5p1" target="_blank" rel="noopener noreferrer" className="h-14 w-52 flex rounded-3xl gap-4 mt-12 bg-secondary text-backgb">
+                    <a href="#" onClick={handleDownloadCV} className="h-14 w-52 flex rounded-3xl gap-4 mt-12 bg-secondary text-backgb">
                         <p className="text-2xl mt-2 ml-6">Baixar CV</p>
                         <FaFileDownload className="text-2xl mt-3" />
                     </a>
