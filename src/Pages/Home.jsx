@@ -2,7 +2,7 @@ import React from 'react';
 import HomeDev from '../Styless/imgs/HomeDev.svg';
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFileDownload } from 'react-icons/fa';
 import Header from '../Components/Header';
-import MeuCurriculoPdf from '../Arquivos/CRR_Dev_Marcelo.pdf';
+import MeuCurriculoPdf from '../Arquivos/CRR_Marcelo_Dev.pdf';
 
 function Home() {
     function handleDownloadCV() {

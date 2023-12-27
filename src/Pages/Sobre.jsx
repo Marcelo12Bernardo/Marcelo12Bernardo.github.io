@@ -24,7 +24,7 @@ function Sobre() {
                                 <li>🎓 - Cursando SI pelo IFF - Campos Campus Centro</li>
                                 <li>💻 - Interesse em atuar como desenvolvedor Front End</li>
                                 <li>🗣️ - Proativo e Comunicativo</li>
-                                <li>📅 - 20 anos</li>
+                                <li>📅 - 21 anos</li>
                                 <li>📍 - Campos dos Goytacazes - RJ</li>
                             </ul>
                         </section>
@@ -42,7 +42,7 @@ function Sobre() {
                                         <div>
                                             <h2 className="font-bold">Skill Labs</h2>
                                             <p>Desenvolvedor Front-End</p>
-                                            <p>Período: Julho/2023 - Outubro/2023</p>
+                                            <p>Período: Julho/2023 - Dezembro/2023</p>
                                         </div>
                                     </div>
                                 </li>
